@@ -491,6 +491,32 @@ Note. As a machine learning engineering, consider to follow a 20/80 rule when it
 <img src="img/sebastian-ramirez.jpg" alt="drawing" width="400"/>
 </p>
 
+## Algorithm Understanding
+### How does the Prophet Algorithm differ from an LSTM?
+#### Answer : 
+The LSTM prediction is based on a set of last values, we are therefore less prone to variance due to seasonality and already consider the current trend. In contrast to that, the prophet model is doing a good job modeling as an additive system and finding out and displaying seasonalities.
+
+### Why does an LSTM have poor performance against ARIMA and Profit for Time Series?
+#### Answer : 
+LSTM based RNNs are difficult to interpret and it is challenging to gain intuition into their behaviour. Also, careful hyperparameter tuning is required in order to achieve good results
+
+## Interview Readiness 
+### What is exponential smoothing and why is it used in Time Series Forecasting?
+#### Answer : 
+Exponential Smoothing Methods are a family of forecasting models. They use weighted averages of past observations to forecast new values. The idea is to give more importance to recent values in the series. Thus, as observations get older in time, the importance of these values get exponentially smaller.
+
+### What is stationarity? What is seasonality? Why Is Stationarity Important in Time Series Forecasting?
+#### Answer : 
+Stationarity means that the statistical properties of a time series (or rather the process generating it) do not change over time. Stationarity is important because many useful analytical tools and statistical tests and models rely on it.
+
+Seasonality is a characteristic of a time series in which the data experiences regular and predictable changes that recur every calendar year. Any predictable fluctuation or pattern that recurs or repeats over a one-year period is said to be seasonal.
+
+Stationarity is important in time series forcasting because It can help us to understand the data better and choose a better range of parameter values for the model.
+
+### How is seasonality different from cyclicality?
+#### Answer : 
+Cyclicality is predicitable, whereas seasonality is not.
+
 # Acknowledgement & Reference
 
 - This assignment is adapted from [Deploying and Hosting a Machine Learning Model with FastAPI and Heroku](https://testdriven.io/blog/fastapi-machine-learning/)
