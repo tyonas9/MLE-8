@@ -1,0 +1,64 @@
+# HELP feature_0_value_baseline Baseline values for feature: sepal length (cm)
+# TYPE feature_0_value_baseline histogram
+feature_0_value_baseline_bucket{le="4.4"} 1.0
+feature_0_value_baseline_bucket{le="4.8375"} 8.0
+feature_0_value_baseline_bucket{le="5.275"} 22.0
+feature_0_value_baseline_bucket{le="5.7125"} 42.0
+feature_0_value_baseline_bucket{le="6.15"} 57.0
+feature_0_value_baseline_bucket{le="6.5875"} 71.0
+feature_0_value_baseline_bucket{le="7.025"} 83.0
+feature_0_value_baseline_bucket{le="7.4625"} 87.0
+feature_0_value_baseline_bucket{le="7.9"} 89.0
+feature_0_value_baseline_bucket{le="+Inf"} 89.0
+feature_0_value_baseline_count 89.0
+feature_0_value_baseline_sum 522.8
+# HELP feature_1_value_baseline Baseline values for feature: sepal width (cm)
+# TYPE feature_1_value_baseline histogram
+feature_1_value_baseline_bucket{le="2.0"} 1.0
+feature_1_value_baseline_bucket{le="2.2181818181818183"} 3.0
+feature_1_value_baseline_bucket{le="2.4363636363636365"} 8.0
+feature_1_value_baseline_bucket{le="2.6545454545454548"} 14.0
+feature_1_value_baseline_bucket{le="2.872727272727273"} 30.0
+feature_1_value_baseline_bucket{le="3.090909090909091"} 52.0
+feature_1_value_baseline_bucket{le="3.3090909090909095"} 68.0
+feature_1_value_baseline_bucket{le="3.5272727272727273"} 80.0
+feature_1_value_baseline_bucket{le="3.745454545454546"} 83.0
+feature_1_value_baseline_bucket{le="3.963636363636364"} 88.0
+feature_1_value_baseline_bucket{le="4.181818181818182"} 88.0
+feature_1_value_baseline_bucket{le="4.4"} 89.0
+feature_1_value_baseline_bucket{le="+Inf"} 89.0
+feature_1_value_baseline_count 89.0
+feature_1_value_baseline_sum 269.59999999999997
+# HELP feature_2_value_baseline Baseline values for feature: petal length (cm)
+# TYPE feature_2_value_baseline histogram
+feature_2_value_baseline_bucket{le="1.0"} 1.0
+feature_2_value_baseline_bucket{le="1.7125"} 23.0
+feature_2_value_baseline_bucket{le="2.425"} 25.0
+feature_2_value_baseline_bucket{le="3.1375"} 25.0
+feature_2_value_baseline_bucket{le="3.85"} 31.0
+feature_2_value_baseline_bucket{le="4.5625"} 49.0
+feature_2_value_baseline_bucket{le="5.275"} 68.0
+feature_2_value_baseline_bucket{le="5.9875"} 84.0
+feature_2_value_baseline_bucket{le="6.7"} 89.0
+feature_2_value_baseline_bucket{le="+Inf"} 89.0
+feature_2_value_baseline_count 89.0
+feature_2_value_baseline_sum 349.7
+# HELP feature_3_value_baseline Baseline values for feature: petal width (cm)
+# TYPE feature_3_value_baseline histogram
+feature_3_value_baseline_bucket{le="0.1"} 2.0
+feature_3_value_baseline_bucket{le="0.4"} 25.0
+feature_3_value_baseline_bucket{le="0.7"} 25.0
+feature_3_value_baseline_bucket{le="0.9999999999999999"} 25.0
+feature_3_value_baseline_bucket{le="1.3"} 44.0
+feature_3_value_baseline_bucket{le="1.6"} 58.0
+feature_3_value_baseline_bucket{le="1.9"} 67.0
+feature_3_value_baseline_bucket{le="2.2"} 79.0
+feature_3_value_baseline_bucket{le="2.5"} 89.0
+feature_3_value_baseline_bucket{le="+Inf"} 89.0
+feature_3_value_baseline_count 89.0
+feature_3_value_baseline_sum 114.29999999999998
+# HELP inference_value_baseline_total Baseline inference values for test set
+# TYPE inference_value_baseline_total counter
+inference_value_baseline_total{bin="setosa"} 25.0
+inference_value_baseline_total{bin="versicolor"} 19.0
+inference_value_baseline_total{bin="virginica"} 17.0
